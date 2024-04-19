@@ -1,0 +1,23 @@
+{
+  "routes": [
+    {
+      "route": "/index.html",
+      "redirect": "/"
+    },
+    {
+      "route": "/old-route",
+      "redirect": "/new-route",
+      "statusCode": 301
+    },
+    {
+      "route": "/",
+      "rewrite": "/api/server"
+    }
+  ],
+  "platform": {
+    "apiRuntime": "node:18"
+  },
+  "navigationFallback": {
+    "rewrite": "/api/server"
+  }
+}
