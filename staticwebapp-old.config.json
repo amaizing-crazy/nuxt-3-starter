@@ -10,6 +10,20 @@
       "statusCode": 301
     },
     {
+      "route": "/specials",
+      "redirect": "/deals",
+      "statusCode": 301
+    },
+    {
+      "route": "/special",
+      "redirect": "/deal",
+      "statusCode": 307
+    },
+    {
+      "route": "/spec",
+      "redirect": "/dea"
+    }
+    {
       "route": "/",
       "rewrite": "/api/server"
     }
