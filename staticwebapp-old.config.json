@@ -22,7 +22,7 @@
     {
       "route": "/spec",
       "redirect": "/dea"
-    }
+    },
     {
       "route": "/",
       "rewrite": "/api/server"
