@@ -6,5 +6,5 @@ export default defineNuxtConfig({
     'close': async () => {
         const fs = require('fs/promises');
         await fs.cp('./staticwebapp-old.config.json', './staticwebapp.config.json', {force: true});
-    }
+    },
 })
