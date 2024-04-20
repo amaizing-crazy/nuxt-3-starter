@@ -17,7 +17,7 @@
     {
       "route": "/special",
       "redirect": "/deal",
-      "statusCode": 307
+      "statusCode": 302
     },
     {
       "route": "/spec",
