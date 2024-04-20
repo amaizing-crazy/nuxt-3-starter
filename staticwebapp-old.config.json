@@ -2,36 +2,3669 @@
   "routes": [
     {
       "route": "/index.html",
-      "redirect": "/"
-    },
-    {
-      "route": "/old-route",
-      "redirect": "/new-route",
+      "redirect": "/",
       "statusCode": 301
-    },
-    {
-      "route": "/specials",
-      "redirect": "/deals",
-      "statusCode": 301
-    },
-    {
-      "route": "/special",
-      "redirect": "/deal",
-      "statusCode": 302
-    },
-    {
-      "route": "/spec",
-      "redirect": "/dea"
     },
     {
       "route": "/",
-      "rewrite": "/api/server"
-    }
-  ],
-  "platform": {
-    "apiRuntime": "node:18"
+      "redirect": "/api/server",
+      "statusCode": 301
+    },
+  {
+    "route": "/home",
+    "redirect": "/",
+    "statusCode": 301
   },
-  "navigationFallback": {
-    "rewrite": "/api/server"
+  {
+    "route": "/about-pse",
+    "redirect": "/about-us",
+    "statusCode": 301
+  },
+  {
+    "route": "/about",
+    "redirect": "/about-us",
+    "statusCode": 301
+  },
+  {
+    "route": "/urban-ambisonics",
+    "redirect": "/collections/ambisonic-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sounds-route-the-bbc-sound-effects-listening-party",
+    "redirect": "/collections/bbc",
+    "statusCode": 301
+  },
+  {
+    "route": "/mightydeals",
+    "redirect": "/collections/deals",
+    "statusCode": 301
+  },
+  {
+    "route": "/european-capitals",
+    "redirect": "/collections/european-capitals",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_BDLEC",
+    "redirect": "/collections/european-capitals",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-european-capitals-library",
+    "redirect": "/collections/european-capitals",
+    "statusCode": 301
+  },
+  {
+    "route": "/about-general-libraries",
+    "redirect": "/collections/general-sound-effects-libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/general-libraries",
+    "redirect": "/collections/general-sound-effects-libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/general-library-user-guide",
+    "redirect": "/collections/general-sound-effects-libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-general-libraries",
+    "redirect": "/collections/general-sound-effects-libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/sound-effects-libraries/general-sound-effects-libraries.html",
+    "redirect": "/collections/general-sound-effects-libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/king",
+    "redirect": "/collections/king",
+    "statusCode": 301
+  },
+  {
+    "route": "/mangini-anderson",
+    "redirect": "/collections/odyssey",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-2018-thank-you",
+    "redirect": "/collections/odyssey",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection",
+    "redirect": "/collections/odyssey",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey",
+    "redirect": "/collections/odyssey",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-odyssey-collection",
+    "redirect": "/collections/odyssey",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_BDLSCABANDON",
+    "redirect": "/collections/sonomar-collection-abandoned",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_BDLSCPIANO",
+    "redirect": "/collections/sonomar-collection-pianos",
+    "statusCode": 301
+  },
+  {
+    "route": "/solutions/contact",
+    "redirect": "/contact-sales",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-2",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-3",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-4",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-5-test",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-5/new-libraries",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/core",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/core-4",
+    "redirect": "/core-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-2-complete",
+    "redirect": "/core-5/complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-complete",
+    "redirect": "/core-5/complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/core/complete",
+    "redirect": "/core-5/complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-2-crearedirectr",
+    "redirect": "/core-5/crearedirectr",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-crearedirectr",
+    "redirect": "/core-5/crearedirectr",
+    "statusCode": 301
+  },
+  {
+    "route": "/core/crearedirectr",
+    "redirect": "/core-5/crearedirectr",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-2-pro",
+    "redirect": "/core-5/pro",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-pro",
+    "redirect": "/core-5/pro",
+    "statusCode": 301
+  },
+  {
+    "route": "/core/pro",
+    "redirect": "/core-5/pro",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-2-pro-plus",
+    "redirect": "/core-5/pro-plus",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-pro-plus",
+    "redirect": "/core-5/pro-plus",
+    "statusCode": 301
+  },
+  {
+    "route": "/core/pro-plus",
+    "redirect": "/core-5/pro-plus",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-2-standard",
+    "redirect": "/core-5/standard",
+    "statusCode": 301
+  },
+  {
+    "route": "/core-standard",
+    "redirect": "/core-5/standard",
+    "statusCode": 301
+  },
+  {
+    "route": "/core/standard",
+    "redirect": "/core-5/standard",
+    "statusCode": 301
+  },
+  {
+    "route": "/education-sound-effects-library-free-semester",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/licensing/education-sound-effects-library-free-semester",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/alp",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/edu",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/education-academic-sound-effects-library",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/education-trial",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/education/contact",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-announces-free-fall-semester-for-schools",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-education-spotlight-foothill-college",
+    "redirect": "/education",
+    "statusCode": 301
+  },
+  {
+    "route": "/dealer-info",
+    "redirect": "/enterprise",
+    "statusCode": 301
+  },
+  {
+    "route": "/dealer-resources$",
+    "redirect": "/enterprise",
+    "statusCode": 301
+  },
+  {
+    "route": "/partners",
+    "redirect": "/enterprise",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-dealer-program$",
+    "redirect": "/enterprise",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-reseller-program",
+    "redirect": "/enterprise",
+    "statusCode": 301
+  },
+  {
+    "route": "/reseller-resources",
+    "redirect": "/enterprise",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library-monthly-payments",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library/full-features",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library/apply",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library/expansions",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library/features",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library/overview",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library/videos",
+    "redirect": "/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/ieula",
+    "redirect": "/individual-end-user-license-agreement",
+    "statusCode": 301
+  },
+  {
+    "route": "/monthly-payments-ieula",
+    "redirect": "/individual-end-user-license-agreement",
+    "statusCode": 301
+  },
+  {
+    "route": "/japan",
+    "redirect": "/ja",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/king-collection-aircraft",
+    "redirect": "/ja/libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pse-libraries",
+    "redirect": "/libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/anime",
+    "redirect": "/libraries/anime",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-anns-animals-sound-library",
+    "redirect": "/libraries/anns-animals",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_ANTAMBB",
+    "redirect": "/libraries/antwerp-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_ANTAMBST",
+    "redirect": "/libraries/antwerp-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/bbc-sound-effects-libraries.html",
+    "redirect": "/libraries/bbc-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-bbc-complete-sound-effects-library.html",
+    "redirect": "/libraries/bbc-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-bbc-hisredirectrical-and-1-166-sound-effects-library.html",
+    "redirect": "/libraries/bbc-hisredirectrical",
+    "statusCode": 301
+  },
+  {
+    "route": "/bbc-nature-sound-effects-library.html",
+    "redirect": "/libraries/bbc-nature",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-bbc-original-sound-effects-library-1-60.html",
+    "redirect": "/libraries/bbc-original-series-1-60",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-bbc-original-sound-effects-library-61-166.html",
+    "redirect": "/libraries/bbc-original-series-61-166",
+    "statusCode": 301
+  },
+  {
+    "route": "/bugs",
+    "redirect": "/libraries/beautiful-bugs",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-beautiful-bugs-library",
+    "redirect": "/libraries/beautiful-bugs",
+    "statusCode": 301
+  },
+  {
+    "route": "/chicago-ambisonics/$",
+    "redirect": "/libraries/chicago-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_CHIAMBB",
+    "redirect": "/libraries/chicago-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_CHIAMBST",
+    "redirect": "/libraries/chicago-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-chicago-ambisonics-library",
+    "redirect": "/libraries/chicago-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/cinematic-winds$",
+    "redirect": "/libraries/cinematic-winds",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-cinematic-winds-sound-library",
+    "redirect": "/libraries/cinematic-winds",
+    "statusCode": 301
+  },
+  {
+    "route": "/winds",
+    "redirect": "/libraries/cinematic-winds",
+    "statusCode": 301
+  },
+  {
+    "route": "/deredirectnate",
+    "redirect": "/libraries/deredirectnate",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-the-foundation-sound-effects-library",
+    "redirect": "/libraries/foundation",
+    "statusCode": 301
+  },
+  {
+    "route": "/garedirectrs",
+    "redirect": "/libraries/garedirectrs",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/snarls-hisses-and-jaw-snaps-pro-sound-effects-releases-garedirectrs",
+    "redirect": "/libraries/garedirectrs",
+    "statusCode": 301
+  },
+  {
+    "route": "/apply-for-freelancer-pricing-for-the-hybrid-library",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/12/hybrid-library-ideal-freelance-sound-designers",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/block_content/hybrid-library",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-expansion-program-video",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/robin-hood-of-sound-effects-libraries",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/full-features",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-2017",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library-expansions",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library-reviews",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library-sitemap",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/hybrid-library-2017-press-kit",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/hybrid-library-now-available-for-annual-licensing",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-adds-new-hybrid-library-features",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-hybrid-library-2017-launch-promo-offer",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-updates-the-hybrid-library-with-more-coverage-and-speed",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-hybrid-library/reviews",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/purchase-the-hybrid-library-monthly-payments",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/purchase-the-hybrid-library-with-monthly-payments-eu",
+    "redirect": "/libraries/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/industrial",
+    "redirect": "/libraries/industrial-sounds-with-soul",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-industrial-sounds-with-soul-library",
+    "redirect": "/libraries/industrial-sounds-with-soul",
+    "statusCode": 301
+  },
+  {
+    "route": "/king-collection-aircraft",
+    "redirect": "/libraries/king-collection-aircraft",
+    "statusCode": 301
+  },
+  {
+    "route": "/king-collection-guns",
+    "redirect": "/libraries/king-collection-guns",
+    "statusCode": 301
+  },
+  {
+    "route": "/king-collection-volume-1",
+    "redirect": "/libraries/king-collection-vol-1",
+    "statusCode": 301
+  },
+  {
+    "route": "/king-collection-volume-1/order-info",
+    "redirect": "/libraries/king-collection-vol-1",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_LAAMBB",
+    "redirect": "/libraries/la-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_LAAMBST",
+    "redirect": "/libraries/la-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_LONAMBB",
+    "redirect": "/libraries/london-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_LONAMBST",
+    "redirect": "/libraries/london-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/block_content/master-library",
+    "redirect": "/libraries/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/master-library",
+    "redirect": "/libraries/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-master-library-2-0-at-nab",
+    "redirect": "/libraries/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-new-master-library-2017",
+    "redirect": "/libraries/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/master",
+    "redirect": "/libraries/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_NYCAMBB",
+    "redirect": "/libraries/nyc-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_NYCAMBST",
+    "redirect": "/libraries/nyc-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/nyc-ambisonics",
+    "redirect": "/libraries/nyc-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-nyc-ambisonics-library",
+    "redirect": "/libraries/nyc-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_NYCAMB2B",
+    "redirect": "/libraries/nyc-ambisonics-vol-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_NYCAMB2ST",
+    "redirect": "/libraries/nyc-ambisonics-vol-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-ambiences",
+    "redirect": "/libraries/odyssey-collection-ambiences",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_OCX",
+    "redirect": "/libraries/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/mangini-anderson-private-library",
+    "redirect": "/libraries/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/mapl",
+    "redirect": "/libraries/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-complete",
+    "redirect": "/libraries/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-essentials",
+    "redirect": "/libraries/odyssey-collection-essentials",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/now-available-the-odyssey-collection-essentials",
+    "redirect": "/libraries/odyssey-collection-essentials",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-announces-the-odyssey-collection-essentials",
+    "redirect": "/libraries/odyssey-collection-essentials",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-expanded",
+    "redirect": "/libraries/odyssey-collection-expanded",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-the-odyssey-collection-expanded",
+    "redirect": "/libraries/odyssey-collection-expanded",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-foley-effects",
+    "redirect": "/libraries/odyssey-collection-foley-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-humans",
+    "redirect": "/libraries/odyssey-collection-humans",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-starter",
+    "redirect": "/libraries/odyssey-collection-starter",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-starter",
+    "redirect": "/libraries/odyssey-collection-starter",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-odyssey-collection-starter",
+    "redirect": "/libraries/odyssey-collection-starter",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-vehicles",
+    "redirect": "/libraries/odyssey-collection-vehicles",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_PARAMBB",
+    "redirect": "/libraries/paris-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_PARAMBST",
+    "redirect": "/libraries/paris-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_SHAAMBB",
+    "redirect": "/libraries/shanghai-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_SHAAMBST",
+    "redirect": "/libraries/shanghai-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/shanghai-ambisonics$",
+    "redirect": "/libraries/shanghai-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-bass-machine-sound-library",
+    "redirect": "/libraries/sonomar-collection-bass-machine",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-stallion-library",
+    "redirect": "/libraries/stallion",
+    "statusCode": 301
+  },
+  {
+    "route": "/stallion",
+    "redirect": "/libraries/stallion",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-submerged-sound-effects-library",
+    "redirect": "/libraries/submerged",
+    "statusCode": 301
+  },
+  {
+    "route": "/submerged$",
+    "redirect": "/libraries/submerged",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-telephony-collection",
+    "redirect": "/libraries/telephony",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_TKYAMBB",
+    "redirect": "/libraries/redirectkyo-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/libraries/PSE_TKYAMBST",
+    "redirect": "/libraries/redirectkyo-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-redirectkyo-ambisonics-library",
+    "redirect": "/libraries/redirectkyo-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/3-little-known-facts-about-royalty-free-sound-effects-licensing",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/block_content/industry-specific-solutions",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/block_content/licensing-simplified",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/game-sound-design-generative-audio/licensing@prosoundeffects.com",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/licensing-pages",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/licensing-pages/consultation",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/multi-user-license-agreement-principal-terms",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/multi-user-license-principal-terms",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/licensing/consultation",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/licensing/multi-user-license-principal-terms",
+    "redirect": "/licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/licensing-thank-you",
+    "redirect": "/licensing-success",
+    "statusCode": 301
+  },
+  {
+    "route": "/audio-research-mir",
+    "redirect": "/machine-learning-ai",
+    "statusCode": 301
+  },
+  {
+    "route": "/machine-learning-audio-research-datasets",
+    "redirect": "/machine-learning-ai",
+    "statusCode": 301
+  },
+  {
+    "route": "/machine-learning",
+    "redirect": "/machine-learning-ai",
+    "statusCode": 301
+  },
+  {
+    "route": "/master-library-monthly-payments",
+    "redirect": "/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/nugen-giveaway",
+    "redirect": "/nugen-post-bundle-giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/oc",
+    "redirect": "/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-collection-complete-early-access-edition",
+    "redirect": "/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-complete",
+    "redirect": "/odyssey-collection-complete",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-essentials",
+    "redirect": "/odyssey-collection-essentials",
+    "statusCode": 301
+  },
+  {
+    "route": "/oe",
+    "redirect": "/odyssey-collection-essentials",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-odyssey-collection-essentials",
+    "redirect": "/odyssey-collection-essentials",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-2018",
+    "redirect": "/odyssey-collection-expanded",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-expanded",
+    "redirect": "/odyssey-collection-expanded",
+    "statusCode": 301
+  },
+  {
+    "route": "/ox",
+    "redirect": "/odyssey-collection-expanded",
+    "statusCode": 301
+  },
+  {
+    "route": "/the-odyssey-collection-expanded",
+    "redirect": "/odyssey-collection-expanded",
+    "statusCode": 301
+  },
+  {
+    "route": "/library-solutions-pricing",
+    "redirect": "/pricing",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-unleashes-new-pricing-delivery-options-for-sound-designers",
+    "redirect": "/pricing",
+    "statusCode": 301
+  },
+  {
+    "route": "/privacy-policy",
+    "redirect": "/privacy",
+    "statusCode": 301
+  },
+  {
+    "route": "/avid-pro-sound-effects-download-pass",
+    "redirect": "/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelance-independent-sound-designers",
+    "redirect": "/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-library-card-new",
+    "redirect": "/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-library-card-new/www.ProSoundEffectsLibraryCard.com",
+    "redirect": "/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/essentials",
+    "redirect": "/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/redeem",
+    "redirect": "/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/basehead-hle",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/basehead-license-authorization",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/basehead-pse",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/basehead-trial",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/soundq-2021",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/soundq-2022",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/soundq-coming-soon",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/soundq-unlimited",
+    "redirect": "/soundq",
+    "statusCode": 301
+  },
+  {
+    "route": "/filmriot",
+    "redirect": "/soundq/?utm_source=youtube&utm_medium=sponsor&utm_campaign=filmriot",
+    "statusCode": 301
+  },
+  {
+    "route": "/advertising-agency",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/audio-post",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/broadcast-tv-radio",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/film",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/indie-mobile-apps-games",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/solutions",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/trial",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/video-game-audio",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/get-trial-access",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/09/blowing-nose-sound-for-hypochondriacs-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/9/blowing-nose-sound-for-hypochondriacs-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/201209redirectm-fleischman-talks-old-school-sound-effect-libraries",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2014-international-music-sound-awards-winners-announced",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2014-international-musicsound-awards-finalists-announced",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/286",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/5-keys-for-using-sound-effects-redirect-improve-sound-design",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/block_content/add-ons",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/block_content/online-library",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/.+",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/david-sonnenschein",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/sound-design-2",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/video",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/webinar",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/introducing-the-pro-sound-effects-library-card",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/mailchimp-example",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/my-sonopedia-experience",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/page/(.+)",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-agency-2012-audio-branding-congress",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/.+",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/blastdrive-3-0/",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/what-is-the-hd-sound-fx-initiative",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/why-hd-sound-fx",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog1/tag/endangered-animals",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/junkyard-sound-effects-recording-turedirectrial",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/news",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/news/press-coverage",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/news/press-releases",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/newsletter-subscription-confirmed",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/press-page",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/press-resources",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/press",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/halloween-haunted-house-app-unleashed-by-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-announces-2018-general-library-updates-with-holiday-sale",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-releases-sound-design-turedirectrial-video",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/sfsu-challenge",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/blastwave-fx-party-like-a-rockstar-contest",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/vr-field-recording-giveaway/lucky=26175",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-login-redirect-pro-sound-effects-sredirectre",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-sale-ends-december-31-2014",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-sale-ends-december-31",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-sale-extended",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/prosoundeffects-com-v3-0-unleashed",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/pse-client-spotlight",
+    "redirect": "https://blog.prosoundeffects.com",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2015-international-music-sound-awards-finalists-announced",
+    "redirect": "https://blog.prosoundeffects.com/2015-international-music-sound-awards-finalists-announced",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/3-keys-redirect-success-for-interactive-sound-design-and-mobile-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/3-keys-redirect-success-for-interactive-sound-design-and-mobile-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/3-reasons-why-investing-in-a-general-library-gives-your-business-an-edge",
+    "redirect": "https://blog.prosoundeffects.com/3-reasons-why-investing-in-a-general-library-gives-your-business-an-edge",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/4000-hours-counting-how-redirect-sculpt-a-professional-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/4000-hours-counting-how-redirect-sculpt-a-professional-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-sculpt-a-professional-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/4000-hours-counting-how-redirect-sculpt-a-professional-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-2",
+    "redirect": "https://blog.prosoundeffects.com/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-3",
+    "redirect": "https://blog.prosoundeffects.com/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-3",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-4",
+    "redirect": "https://blog.prosoundeffects.com/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-4",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-5",
+    "redirect": "https://blog.prosoundeffects.com/5-keys-for-using-sound-effects-redirect-improve-sound-design-part-5",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/aba-finalists-audio-branding-award",
+    "redirect": "https://blog.prosoundeffects.com/aba-finalists-audio-branding-award",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/adapt-your-project-across-multi-channel-formats-with-nugen-audio-halo-upmix",
+    "redirect": "https://blog.prosoundeffects.com/adapt-your-project-across-multi-channel-formats-with-nugen-audio-halo-upmix",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/announcing-cinematic-winds-library-route-film-sound-legends-ann-kroeber-alan-splet",
+    "redirect": "https://blog.prosoundeffects.com/announcing-cinematic-winds-library-route-film-sound-legends-ann-kroeber-alan-splet",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/announcing-the-odyssey-collection-essentials-by-mark-mangini-richard-l-anderson",
+    "redirect": "https://blog.prosoundeffects.com/announcing-the-odyssey-collection-essentials-by-mark-mangini-richard-l-anderson",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/app-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/app-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/app-sound-effects-blastwave-fx",
+    "redirect": "https://blog.prosoundeffects.com/app-sound-effects-blastwave-fx",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/arctic-fox-pup-shriek-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/arctic-fox-pup-shriek-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/audio-branding-awards-2015-finalists-announced",
+    "redirect": "https://blog.prosoundeffects.com/audio-branding-awards-2015-finalists-announced",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/audio-branding-awards-2015-winners",
+    "redirect": "https://blog.prosoundeffects.com/audio-branding-awards-2015-winners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/audio-olympic-competition",
+    "redirect": "https://blog.prosoundeffects.com/audio-olympic-competition",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/audio-olympic-competition-facebook",
+    "redirect": "https://blog.prosoundeffects.com/audio-olympic-competition-facebook",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/audiodraft-audio-logo-contest-library-interview",
+    "redirect": "https://blog.prosoundeffects.com/audiodraft-audio-logo-contest-library-interview",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/audition-sounds-sonopedia-3-0-upgrading",
+    "redirect": "https://blog.prosoundeffects.com/audition-sounds-sonopedia-3-0-upgrading",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/avid-blogs-features-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/avid-blogs-features-pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/avid-blogs-sound-effects-library-searching-pro-redirectols-workspace-browser",
+    "redirect": "https://blog.prosoundeffects.com/avid-blogs-sound-effects-library-searching-pro-redirectols-workspace-browser",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/avid-connect-europe-ibc-2014-wrap-up",
+    "redirect": "https://blog.prosoundeffects.com/avid-connect-europe-ibc-2014-wrap-up",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/bbc-nature-sound-effects-library-a-taste",
+    "redirect": "https://blog.prosoundeffects.com/bbc-nature-sound-effects-library-a-taste",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/bbc-sound-effects-used-in-metropolis-ensemble-brownsredirectne-concert",
+    "redirect": "https://blog.prosoundeffects.com/bbc-sound-effects-used-in-metropolis-ensemble-brownsredirectne-concert",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/beach-ambience-sound-effect",
+    "redirect": "https://blog.prosoundeffects.com/beach-ambience-sound-effect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/beau-borders-sound-design",
+    "redirect": "https://blog.prosoundeffects.com/beau-borders-sound-design",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/bees-buzz-sound-effect",
+    "redirect": "https://blog.prosoundeffects.com/bees-buzz-sound-effect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/behind-the-new-bbc-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/behind-the-new-bbc-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/bengal-tiger-roar-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/bengal-tiger-roar-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/best-sound-effects-libraries-for-new-sound-designers",
+    "redirect": "https://blog.prosoundeffects.com/best-sound-effects-libraries-for-new-sound-designers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/black-spider-monkey-call-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/black-spider-monkey-call-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/blastwave-fx-halloween-sound-design-competition-rules-faq",
+    "redirect": "https://blog.prosoundeffects.com/blastwave-fx-halloween-sound-design-competition-rules-faq",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/blowing-nose-sound-for-hypochondriacs-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/blowing-nose-sound-for-hypochondriacs-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/building-sonic-worlds-mark-mangini-on-the-dynamic-immersive-sound-of-blade-runner-2049",
+    "redirect": "https://blog.prosoundeffects.com/building-sonic-worlds-mark-mangini-on-the-dynamic-immersive-sound-of-blade-runner-2049",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/campus-technology-conference-2012-highlights",
+    "redirect": "https://blog.prosoundeffects.com/campus-technology-conference-2012-highlights",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/campus-technology-conference-video-classroom",
+    "redirect": "https://blog.prosoundeffects.com/campus-technology-conference-video-classroom",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/chicago-ambisonics-library-with-virtual-mic-software-offers-endless-control",
+    "redirect": "https://blog.prosoundeffects.com/chicago-ambisonics-library-with-virtual-mic-software-offers-endless-control",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/chimpanzee-hoots-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/chimpanzee-hoots-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/chris-wiseman-orion-flight-sound-effects-library-interview",
+    "redirect": "https://blog.prosoundeffects.com/chris-wiseman-orion-flight-sound-effects-library-interview",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/cinematic-winds-library-review-by-the-sound-architect",
+    "redirect": "https://blog.prosoundeffects.com/cinematic-winds-library-review-by-the-sound-architect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/client-spotlight-cloud-imperium-games",
+    "redirect": "https://blog.prosoundeffects.com/client-spotlight-cloud-imperium-games",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/client-spotlight-university-of-north-texas",
+    "redirect": "https://blog.prosoundeffects.com/client-spotlight-university-of-north-texas",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/university-of-north-texas-gets-creative-with-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/client-spotlight-university-of-north-texas",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/congratulations-2018-sound-award-winners-nominees",
+    "redirect": "https://blog.prosoundeffects.com/congratulations-redirect-2018-sound-award-winners-and-nominees",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/creating-the-sound-of-madden-nfl-17-with-solid-audioworks",
+    "redirect": "https://blog.prosoundeffects.com/creating-the-sound-of-madden-nfl-17-with-solid-audioworks",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/david-sonnenschein-3-deaf-mice-pt1",
+    "redirect": "https://blog.prosoundeffects.com/david-sonnenschein-3-deaf-mice-pt1",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/deadline-extended-2015-international-music-sound-awards",
+    "redirect": "https://blog.prosoundeffects.com/deadline-extended-2015-international-music-sound-awards",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/designing-sound-discussion-group",
+    "redirect": "https://blog.prosoundeffects.com/designing-sound-discussion-group",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/designing-sound-review-ofthe-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/designing-sound-review-ofthe-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/designing-the-afterlife-behind-the-sound-of-flatliners",
+    "redirect": "https://blog.prosoundeffects.com/designing-the-afterlife-behind-the-sound-of-flatliners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/detroit-chop-shop-fireworks",
+    "redirect": "https://blog.prosoundeffects.com/detroit-chop-shop-fireworks",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/detroit-chop-shop-season-4-trailer",
+    "redirect": "https://blog.prosoundeffects.com/detroit-chop-shop-season-4-trailer",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/detroit-chop-shop-season-4-video-diary-week-1",
+    "redirect": "https://blog.prosoundeffects.com/detroit-chop-shop-season-4-video-diary-week-1",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/draftaward-winning-pse-users",
+    "redirect": "https://blog.prosoundeffects.com/draftaward-winning-pse-users",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/ea-dice-sound-designers-discuss-sounds-of-star-wars-battlefront",
+    "redirect": "https://blog.prosoundeffects.com/ea-dice-sound-designers-discuss-sounds-of-star-wars-battlefront",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/engaging-silence-behind-the-daring-sound-of-a-quiet-place",
+    "redirect": "https://blog.prosoundeffects.com/engaging-silence-behind-the-sound-of-a-quiet-place",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/enter-the-upgrade-your-sound-design-rig-giveaway",
+    "redirect": "https://blog.prosoundeffects.com/enter-the-upgrade-your-sound-design-rig-giveaway",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-launches-upgrade-your-rig-giveaway",
+    "redirect": "https://blog.prosoundeffects.com/enter-the-upgrade-your-sound-design-rig-giveaway",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/exhibit-campus-technology-conference",
+    "redirect": "https://blog.prosoundeffects.com/exhibit-campus-technology-conference",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/expanding-a-universe-inside-the-sound-of-star-wars-the-last-jedi",
+    "redirect": "https://blog.prosoundeffects.com/expanding-a-universe-inside-the-sound-of-star-wars-the-last-jedi",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/expansion-1-reviews",
+    "redirect": "https://blog.prosoundeffects.com/expansion-1-reviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/expressive-machines-martin-stig-andersens-award-winning-game-audio-for-inside",
+    "redirect": "https://blog.prosoundeffects.com/expressive-machines-martin-stig-andersens-award-winning-game-audio-for-inside",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/fast-and-furious-6-cheap-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/fast-and-furious-6-cheap-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/field-recording-aviation-collection",
+    "redirect": "https://blog.prosoundeffects.com/field-recording-aviation-collection",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/find-inspiration-for-your-next-sound-design-project",
+    "redirect": "https://blog.prosoundeffects.com/find-inspiration-for-your-next-sound-design-project",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/fmod-learning-suite-audio-education",
+    "redirect": "https://blog.prosoundeffects.com/fmod-learning-suite-audio-education",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/forbes-examines-modern-sound-design-with-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/forbes-examines-modern-sound-design-with-pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/forbes-the-changing-times-of-hollywood-sound-design",
+    "redirect": "https://blog.prosoundeffects.com/forbes-examines-modern-sound-design-with-pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/free-online-library-access-for-50-schools",
+    "redirect": "https://blog.prosoundeffects.com/free-online-library-access-for-50-schools",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/free-sound-effects-download-pack-2-route-blastwave-fx",
+    "redirect": "https://blog.prosoundeffects.com/free-sound-effects-download-pack-2-route-blastwave-fx",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/free-sound-effects-download-pack-available",
+    "redirect": "https://blog.prosoundeffects.com/free-sound-effects-download-pack-available",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/freelancer-program-now-open-for-year-round-enrollment",
+    "redirect": "https://blog.prosoundeffects.com/freelancer-program-now-open-for-year-round-enrollment",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/freelancer-program-upgraded-with-new-libraries-software",
+    "redirect": "https://blog.prosoundeffects.com/freelancer-program-upgraded-with-new-libraries-software",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/game-sound-design-generative-audio",
+    "redirect": "https://blog.prosoundeffects.com/game-sound-design-generative-audio",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/gamesoundcon-2016-wrap-up",
+    "redirect": "https://blog.prosoundeffects.com/gamesoundcon-2016-wrap-up",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/gamesoundcon-aes-la-2014-wrap-up",
+    "redirect": "https://blog.prosoundeffects.com/gamesoundcon-aes-la-2014-wrap-up",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/gdc-2014-wrap",
+    "redirect": "https://blog.prosoundeffects.com/gdc-2014-wrap",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giant-panda-cub-call-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/giant-panda-cub-call-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/glyph-announces-new-sound-effects-hard-drive",
+    "redirect": "https://blog.prosoundeffects.com/glyph-announces-new-sound-effects-hard-drive",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/halloween-haunted-house-app-unleashed-by-pse",
+    "redirect": "https://blog.prosoundeffects.com/halloween-haunted-house-app-unleashed-by-pse",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/halloween-haunted-house-ken-skoglund-sound-control-se",
+    "redirect": "https://blog.prosoundeffects.com/halloween-haunted-house-ken-skoglund-sound-control-se",
+    "statusCode": 301
+  },
+  {
+    "route": "/contest",
+    "redirect": "https://blog.prosoundeffects.com/halloween-sound-design-contest-winners-2023",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/halloween-sound-effects-2014",
+    "redirect": "https://blog.prosoundeffects.com/halloween-sound-effects-2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/happy-thanksgiving-route-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/happy-thanksgiving-route-pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hollywood-edge-available-download-pro-sound-effects-online-library",
+    "redirect": "https://blog.prosoundeffects.com/hollywood-edge-available-download-pro-sound-effects-online-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hollywood-edge-joins-pro-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/hollywood-edge-joins-pro-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hollywood-edge-pro-sound-effects-means-soundminer-users",
+    "redirect": "https://blog.prosoundeffects.com/hollywood-edge-pro-sound-effects-means-soundminer-users",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-allison-casey-of-gramercy-post-works",
+    "redirect": "https://blog.prosoundeffects.com/how-allison-casey-of-gramercy-post-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/how-i-work-allison-casey-of-gramercy-post",
+    "redirect": "https://blog.prosoundeffects.com/how-allison-casey-of-gramercy-post-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-andrew-lackey-wabi-sabi-sound-works",
+    "redirect": "https://blog.prosoundeffects.com/how-andrew-lackey-wabi-sabi-sound-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-andrew-tracy-of-one-thousand-birds-works",
+    "redirect": "https://blog.prosoundeffects.com/how-andrew-tracy-of-one-thousand-birds-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/how-i-work-andrew-tracy-of-one-thousand-birds",
+    "redirect": "https://blog.prosoundeffects.com/how-andrew-tracy-of-one-thousand-birds-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-david-barbee-works",
+    "redirect": "https://blog.prosoundeffects.com/how-david-barbee-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pse-presents-how-i-work-with-david-barbee",
+    "redirect": "https://blog.prosoundeffects.com/how-david-barbee-works",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-justin-hollis-works-sound-designer-at-hexany-audio",
+    "redirect": "https://blog.prosoundeffects.com/how-justin-hollis-works-sound-designer-at-hexany-audio",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/how-i-work-justin-hollis-route-hexany-audio",
+    "redirect": "https://blog.prosoundeffects.com/how-justin-hollis-works-sound-designer-at-hexany-audio",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-matt-piersall-of-gl33k-works-2",
+    "redirect": "https://blog.prosoundeffects.com/how-matt-piersall-of-gl33k-works-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-michael-oconnor-works-2",
+    "redirect": "https://blog.prosoundeffects.com/how-michael-oconnor-works-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/beachbody",
+    "redirect": "https://blog.prosoundeffects.com/how-pro-sound-effects-helps-beachbodys-production-team-reach-peak-productivity",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-sound-designers-use-the-hybrid-library-for-indie-film-projects",
+    "redirect": "https://blog.prosoundeffects.com/how-sound-designers-use-the-hybrid-library-for-indie-film-projects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-this-brooklyn-sound-designer-is-making-it-in-indie-film",
+    "redirect": "https://blog.prosoundeffects.com/how-this-brooklyn-sound-designer-is-making-it-in-indie-film",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-build-an-efficient-sound-library-redirect-save-time-and-increase-production-value",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-build-an-efficient-sound-library-redirect-save-time-and-increase-production-value",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-clean-up-noisy-voiceover-recordings-with-izoredirectpe-rx",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-clean-up-noisy-voiceover-recordings-with-izoredirectpe-rx",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-create-pro-redirectols-session-templates-for-sound-effects-editing",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-create-pro-redirectols-session-templates-for-sound-effects-editing",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-launches-nugen-post-bundle-giveaway",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-deliver-compliant-mixes-for-broadcast-film-and-games-with-the-nugen-post-bundle",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-design-an-audio-logo-for-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-design-an-audio-logo-for-pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-play-24-bit-wav-files-in-netmix-lite-on-windows",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-play-24-bit-wav-files-in-netmix-lite-on-windows",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-record-ambisonics-with-the-sennheiser-ambeo-vr-mic",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-record-ambisonics-with-the-sennheiser-ambeo-vr-mic",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-redirect-record-underwater-sound-effects-with-a-hydrophone",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-record-underwater-sound-effects-with-a-hydrophone",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tips-for-recording-underwater-sound-effects-",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-record-underwater-sound-effects-with-a-hydrophone",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tips-for-recording-underwater-sound-effects-with-a-hydrophone",
+    "redirect": "https://blog.prosoundeffects.com/how-redirect-record-underwater-sound-effects-with-a-hydrophone",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/how-will-morredirectn-solid-audioworks-works",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-animal-sound-design-blog",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-animal-sound-design-blog",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-animal-sound-design-competition-winner-announcement",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-animal-sound-design-competition-entrees",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-animal-sound-design-competition-winners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-animal-sound-design-competition-winner-announcement",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-animal-sound-design-competition-winners",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-animal-sound-design-competition",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-animal-sound-design-competition-winners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-animal-sound-design-competition-winners",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-expansion-program-video",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-ideal-freelance-sound-designers",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-ideal-freelance-sound-designers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-life-cycle-pricing",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-life-cycle-pricing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-now-available-for-annual-licensing",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-now-available-for-annual-licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-now-available-on-floppy-disk",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-now-available-on-floppy-disk",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-program-is-still-open",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-program-is-still-open",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-reviews",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-reviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-video",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-video",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-wins-anr-sonic-joy-award-2016",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-library-wins-anr-sonic-joy-award-2016",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-owner-explores-redirectuch-motion-controls-in-sound-design",
+    "redirect": "https://blog.prosoundeffects.com/hybrid-owner-explores-redirectuch-motion-controls-in-sound-design",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/imsta-festa-2012",
+    "redirect": "https://blog.prosoundeffects.com/imsta-festa-2012",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/indian-elephant-call-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/indian-elephant-call-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/indie-film-sound-design-spotlight-billia",
+    "redirect": "https://blog.prosoundeffects.com/indie-film-sound-design-spotlight-billia",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-design-spotlight-billia",
+    "redirect": "https://blog.prosoundeffects.com/indie-film-sound-design-spotlight-billia",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/inside-the-sleek-interactive-sound-design-of-award-winning-ios-puzzle-app-blackbox",
+    "redirect": "https://blog.prosoundeffects.com/inside-the-sleek-interactive-sound-design-of-award-winning-ios-puzzle-app-blackbox",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/international-music-sound-awards-2013",
+    "redirect": "https://blog.prosoundeffects.com/international-music-sound-awards-2013",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/interview-bob-bell-cow-redirectss-olympic",
+    "redirect": "https://blog.prosoundeffects.com/interview-bob-bell-cow-redirectss-olympic",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/interview-with-david-sonnenschein-part-2",
+    "redirect": "https://blog.prosoundeffects.com/interview-with-david-sonnenschein-part-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/interview-with-david-sonnenschein-part-3",
+    "redirect": "https://blog.prosoundeffects.com/interview-with-david-sonnenschein-part-3",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/interview-with-masaredirect-ushijima-recordist-of-redirectkyo-ambisonics",
+    "redirect": "https://blog.prosoundeffects.com/interview-with-masaredirect-ushijima-recordist-of-redirectkyo-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/interview-with-ric-viers-of-blastwave-fx",
+    "redirect": "https://blog.prosoundeffects.com/interview-with-ric-viers-of-blastwave-fx",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/introducing-hybrid-library-2017-new-features-with-limited-sale-for-freelancers",
+    "redirect": "https://blog.prosoundeffects.com/introducing-hybrid-library-2017-new-features-with-limited-sale-for-freelancers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/introducing-master-library-2017-new-features-with-special-intro-pricing",
+    "redirect": "https://blog.prosoundeffects.com/introducing-master-library-2017-new-features-with-special-intro-pricing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/introducing-new-pro-sound-effects-website",
+    "redirect": "https://blog.prosoundeffects.com/introducing-new-pro-sound-effects-website",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/introducing-the-freelancer-program-with-open-enrollment-through-december",
+    "redirect": "https://blog.prosoundeffects.com/introducing-the-freelancer-program-with-open-enrollment-through-december",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/introducing-the-odyssey-collection-expanded-ox-by-mark-mangini-richard-l-anderson",
+    "redirect": "https://blog.prosoundeffects.com/introducing-the-odyssey-collection-expanded-by-mark-mangini-richard-l.-anderson",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/blog",
+    "redirect": "https://blog.prosoundeffects.com/ja",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/blog/how-redirect-clean-up-noisy-voiceover-recordings-with-izoredirectpe-rx",
+    "redirect": "https://blog.prosoundeffects.com/ja",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/blog/how-redirect-create-pro-redirectols-session-templates-for-sound-effects-editing",
+    "redirect": "https://blog.prosoundeffects.com/ja",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/blog/how-redirect-record-underwater-sound-effects-with-a-hydrophone",
+    "redirect": "https://blog.prosoundeffects.com/ja",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/blog/redirectp-6-pro-redirectols-shortcuts-redirect-streamline-your-sound-editing-workflow",
+    "redirect": "https://blog.prosoundeffects.com/ja",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/blog/how-redirect-record-ambisonics-with-the-sennheiser-ambeo-vr-mic",
+    "redirect": "https://blog.prosoundeffects.com/ja/how-redirect-record-ambisonics-with-the-sennheiser-ambeo-vr-mic",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/jeff-bizub-uses-music-theory-redirect-fix-ge-engines",
+    "redirect": "https://blog.prosoundeffects.com/jeff-bizub-uses-music-theory-redirect-fix-ge-engines",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/jurassic-park-dinosaur-sound-effect",
+    "redirect": "https://blog.prosoundeffects.com/jurassic-park-dinosaur-sound-effect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/ken-skoglund-auredirectmobile-recording",
+    "redirect": "https://blog.prosoundeffects.com/ken-skoglund-auredirectmobile-recording",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/ken-skoglund-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/ken-skoglund-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/macaw-flight-call-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/macaw-flight-call-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/marclays-manga-scroll-making-sound-effects-a-visual-art-2",
+    "redirect": "https://blog.prosoundeffects.com/marclays-manga-scroll-making-sound-effects-a-visual-art-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/marine-iguana-sneeze-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/marine-iguana-sneeze-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/mark-mangini-on-why-you-should-record-at-high-sample-rates",
+    "redirect": "https://blog.prosoundeffects.com/mark-mangini-on-why-you-should-record-at-high-sample-rates",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/mark-mangini-richard-anderson-join-the-pro-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/mark-mangini-richard-anderson-join-the-pro-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/mark-mangini-and-richard-anderson-join-the-pro-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/mark-mangini-richard-anderson-join-the-pro-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/master-library-2-0-nab",
+    "redirect": "https://blog.prosoundeffects.com/master-library-2-0-nab",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/music-and-sound-design-awards-international-finalists-announced",
+    "redirect": "https://blog.prosoundeffects.com/music-and-sound-design-awards-international-finalists-announced",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/music-sound-awards-2013-winners",
+    "redirect": "https://blog.prosoundeffects.com/music-sound-awards-2013-winners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nab-2014-wrap-avid-connect-competition-winners",
+    "redirect": "https://blog.prosoundeffects.com/nab-2014-wrap-avid-connect-competition-winners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nab-2016-giveaway-hybrid-sound-effects-library-izoredirectpe-rx-5-audio-ediredirectr",
+    "redirect": "https://blog.prosoundeffects.com/nab-2016-giveaway-hybrid-sound-effects-library-izoredirectpe-rx-5-audio-ediredirectr",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nab-show-2016-wrap-up",
+    "redirect": "https://blog.prosoundeffects.com/nab-show-2016-wrap-up",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nab-show-avid-connect-2015-wrap-up",
+    "redirect": "https://blog.prosoundeffects.com/nab-show-avid-connect-2015-wrap-up",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nasa-titan-voyager-rocket-launch-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/nasa-titan-voyager-rocket-launch-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-features-added-redirect-the-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/new-features-added-redirect-the-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-hybrid-library-expansion-1-released-freelance-sound-designers",
+    "redirect": "https://blog.prosoundeffects.com/new-hybrid-library-expansion-1-released-freelance-sound-designers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-pse-hard-drives",
+    "redirect": "https://blog.prosoundeffects.com/new-pse-hard-drives",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-video-about-us",
+    "redirect": "https://blog.prosoundeffects.com/new-video-about-us",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-video-route-brownsredirectne-concert-with-bbc-animal-sound-effects-2",
+    "redirect": "https://blog.prosoundeffects.com/new-video-route-brownsredirectne-concert-with-bbc-animal-sound-effects-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-video-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/new-video-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/new-video-turedirectrial-of-pro-sound-effects-online-library",
+    "redirect": "https://blog.prosoundeffects.com/new-video-turedirectrial-of-pro-sound-effects-online-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/neworleans-sound-of-the-day-crowded-street-sounds",
+    "redirect": "https://blog.prosoundeffects.com/neworleans-sound-of-the-day-crowded-street-sounds",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nyc-ambisonics-experience-unparalleled-flexibility-with-virtual-microphones",
+    "redirect": "https://blog.prosoundeffects.com/nyc-ambisonics-experience-unparalleled-flexibility-with-virtual-microphones",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/nytimes-museums-embrace-works-made-of-sound",
+    "redirect": "https://blog.prosoundeffects.com/nytimes-museums-embrace-works-made-of-sound",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/optimize-your-remote-sound-editing-setup",
+    "redirect": "https://blog.prosoundeffects.com/optimize-your-remote-sound-editing-setup",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/orangutan-kiss-squeak-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/orangutan-kiss-squeak-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/penguin-billing-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/penguin-billing-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/peter-tyack-the-intriguing-sound-of-marine-mammals",
+    "redirect": "https://blog.prosoundeffects.com/poison-dart-frog-chirp-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/poison-dart-frog-chirp-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/post-magazine-reviews-hybrid-library-2017",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/post-magazine-reviews-hybrid-library-2017",
+    "redirect": "https://blog.prosoundeffects.com/post-magazine-reviews-nyc-ambisonics-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/post-magazine-reviews-nyc-ambisonics-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-at-avid-connect-2016",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-at-avid-connect-2016",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-at-avid-connect-2016",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-at-gamesoundcon-2015",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-at-gamesoundcon-2015",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-at-gamesoundcon-aes-2014",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-at-gamesoundcon-aes-2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-attends-the-audio-branding-congress",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-attends-the-audio-branding-congress",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-avid-connect-europe-ibc2014",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-avid-connect-europe-ibc2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-avid-connect-nab-2015",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-avid-connect-nab-2015",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-exhibiting-at-nab-show-2016",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-exhibiting-at-nab-show-2016",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-expansion-2-library",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-expansion-2-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-featured-mix-magazine",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-featured-mix-magazine",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/hybrid-library-expansion-program-video/www.twitter.com/prosoundeffects",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-hybrid-library-expansion-program-freelance-sound-designers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-hybrid-library-expansion-program-freelance-sound-designers",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-hybrid-library-expansion-program-freelance-sound-designers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-la-film-prize",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-la-film-prize",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-master-library-video",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-master-library-video",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-nab-2013-part",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-nab-2013-part",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-podcast-interview-nab",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-podcast-interview-nab",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-sponsors-1st-avid-cusredirectmer-association-event-nab-2014",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-sponsors-1st-avid-cusredirectmer-association-event-nab-2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-sponsors-72-film-fest",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-sponsors-72-film-fest",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-sponsors-gamesoundcon-2016",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-sponsors-gamesoundcon-2016",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-sound-effects-year-review-2014",
+    "redirect": "https://blog.prosoundeffects.com/pro-sound-effects-year-review-2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-redirectols-11-workspace-browser",
+    "redirect": "https://blog.prosoundeffects.com/pro-redirectols-11-workspace-browser",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-redirectols-expert-reviews-nyc-ambisonics",
+    "redirect": "https://blog.prosoundeffects.com/pro-redirectols-expert-reviews-nyc-ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/advanced-mixing-auredirectmation-tips-for-pro-redirectols",
+    "redirect": "https://blog.prosoundeffects.com/pro-redirectols-mixing-auredirectmation-turedirectrial-with-brad-engleking",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pro-redirectols-mixing-auredirectmation-turedirectrial-with-brad-engleking",
+    "redirect": "https://blog.prosoundeffects.com/pro-redirectols-mixing-auredirectmation-turedirectrial-with-brad-engleking",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/project-volare-learn-filmmaking-techniques-and-win-prizes",
+    "redirect": "https://blog.prosoundeffects.com/project-volare-learn-filmmaking-techniques-and-win-prizes",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/prosound-effects-mikes-hard-lemonade-grey",
+    "redirect": "https://blog.prosoundeffects.com/prosound-effects-mikes-hard-lemonade-grey",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/prosoundeffects.com-v3.0-unleashed",
+    "redirect": "https://blog.prosoundeffects.com/prosoundeffects.com-v3.0-unleashed",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-2013-audio-branding-congress",
+    "redirect": "https://blog.prosoundeffects.com/pse-2013-audio-branding-congress",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-at-nab-2013",
+    "redirect": "https://blog.prosoundeffects.com/pse-at-nab-2013",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-at-the-game-developers-conference",
+    "redirect": "https://blog.prosoundeffects.com/pse-at-the-game-developers-conference",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-audio-olympic-competition-winner-runners-up",
+    "redirect": "https://blog.prosoundeffects.com/pse-audio-olympic-competition-winner-runners-up",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/08/pse-audio-olympic-interview",
+    "redirect": "https://blog.prosoundeffects.com/pse-audio-olympic-interview-saro-sahihi",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/8/pse-audio-olympic-interview",
+    "redirect": "https://blog.prosoundeffects.com/pse-audio-olympic-interview-saro-sahihi",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-audio-olympic-interview-saro-sahihi",
+    "redirect": "https://blog.prosoundeffects.com/pse-audio-olympic-interview-saro-sahihi",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-client-spotlight-foothill-college",
+    "redirect": "https://blog.prosoundeffects.com/pse-client-spotlight-foothill-college",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-featured-in-designing-sound-interview-series",
+    "redirect": "https://blog.prosoundeffects.com/pse-featured-in-designing-sound-interview-series",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-library-included-in-izoredirectpe-rx-post-production-suite",
+    "redirect": "https://blog.prosoundeffects.com/pse-library-included-in-izoredirectpe-rx-post-production-suite",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-partner-stephan-schutze-recording-vehicle-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/pse-partner-stephan-schutze-recording-vehicle-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-sonic-arts-award-2014",
+    "redirect": "https://blog.prosoundeffects.com/pse-sonic-arts-award-2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-sponsored-la-post-fest-still-accepting-entries",
+    "redirect": "https://blog.prosoundeffects.com/pse-sponsored-la-post-fest-still-accepting-entries",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-sponsors-audio-branding-awards-2015-2",
+    "redirect": "https://blog.prosoundeffects.com/pse-sponsors-audio-branding-awards-2015-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-sponsors-audio-branding-conference-2012",
+    "redirect": "https://blog.prosoundeffects.com/pse-sponsors-audio-branding-conference-2012",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-sponsors-bcpc-post-nab-party-in-nyc",
+    "redirect": "https://blog.prosoundeffects.com/pse-sponsors-bcpc-post-nab-party-in-nyc",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/pse-user-sredirectries-ben-minredirect",
+    "redirect": "https://blog.prosoundeffects.com/pse-user-sredirectries-ben-minredirect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/quiet-planet-joins-pro-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/quiet-planet-joins-pro-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/randi-altmans-postperspective-reviews-nyc-ambisonics-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/randi-altmans-postperspective-reviews-nyc-ambisonics-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/rare-animals-sound-effects-alphabet-video-and-library",
+    "redirect": "https://blog.prosoundeffects.com/rare-animals-sound-effects-alphabet-video-and-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/recording-animal-sound-effects-with-ann-kroeber",
+    "redirect": "https://blog.prosoundeffects.com/recording-animal-sound-effects-with-ann-kroeber",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/refer-a-friend-freelancer-program",
+    "redirect": "https://blog.prosoundeffects.com/refer-a-friend-freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/referee-whistle-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/referee-whistle-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/refining-greatness-step-inside-the-development-of-the-mangini-anderson-library",
+    "redirect": "https://blog.prosoundeffects.com/refining-greatness-step-inside-the-development-of-the-mangini-anderson-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/reflections-on-sound-effects-vs.-music-in-the-creation-process",
+    "redirect": "https://blog.prosoundeffects.com/reflections-on-sound-effects-vs.-music-in-the-creation-process",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/rhino-charging-sound-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/rhino-charging-sound-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/ric-viers-inducted-full-sail-university-hall-of-fame",
+    "redirect": "https://blog.prosoundeffects.com/ric-viers-inducted-full-sail-university-hall-of-fame",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/room-redirectnes-library-route-soundeffects-ch",
+    "redirect": "https://blog.prosoundeffects.com/room-redirectnes-library-route-soundeffects-ch",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/room-redirectnes-online-library",
+    "redirect": "https://blog.prosoundeffects.com/room-redirectnes-online-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/salmon-swimming-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/salmon-swimming-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/season-3-of-blastwave-fxs-detroit-chop-shop-series",
+    "redirect": "https://blog.prosoundeffects.com/season-3-of-blastwave-fxs-detroit-chop-shop-series",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/setting-the-studio-on-fire-recording-sounds-for-raiders-of-the-lost-ark",
+    "redirect": "https://blog.prosoundeffects.com/setting-the-studio-on-fire-recording-sounds-for-raiders-of-the-lost-ark",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/seven-powerful-search-methods-for-the-pse-online-library",
+    "redirect": "https://blog.prosoundeffects.com/seven-powerful-search-methods-for-the-pse-online-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sleigh-bells-jingle-sound-effect",
+    "redirect": "https://blog.prosoundeffects.com/sleigh-bells-jingle-sound-effect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sonic-arts-award-2014-winners-announced",
+    "redirect": "https://blog.prosoundeffects.com/sonic-arts-award-2014-winners-announced",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sonic-branding-and-the-audio-branding-congress-pt-1",
+    "redirect": "https://blog.prosoundeffects.com/sonic-branding-and-the-audio-branding-congress-pt-1",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sonic-branding-and-the-audio-branding-congress-pt-2",
+    "redirect": "https://blog.prosoundeffects.com/sonic-branding-and-the-audio-branding-congress-pt-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sonic-odysseys-tales-of-epic-recording-sessions-with-mark-mangini",
+    "redirect": "https://blog.prosoundeffects.com/sonic-odysseys-tales-of-epic-recording-sessions-with-mark-mangini",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-design-for-ios-soundrangers",
+    "redirect": "https://blog.prosoundeffects.com/sound-design-for-ios-soundrangers",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-design-tips-route-oscar-winner-sylvain-bellemare",
+    "redirect": "https://blog.prosoundeffects.com/sound-design-tips-route-oscar-winner-sylvain-bellemare",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-design-turedirectrial-with-the-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/sound-design-turedirectrial-with-the-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-design-with-iris-2-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/sound-design-with-iris-2-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-designing-the-mechanical-beasts-of-titanfall-2",
+    "redirect": "https://blog.prosoundeffects.com/sound-designing-the-mechanical-beasts-of-titanfall-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-effects-audiobooks-ebooks",
+    "redirect": "https://blog.prosoundeffects.com/sound-effects-audiobooks-ebooks",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-effects-in-portlandia",
+    "redirect": "https://blog.prosoundeffects.com/sound-effects-in-portlandia",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-effects-interview",
+    "redirect": "https://blog.prosoundeffects.com/sound-effects-interview",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-effects-library-upgrade-paths",
+    "redirect": "https://blog.prosoundeffects.com/sound-effects-library-upgrade-paths",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-effects-licensing-exposed-the-royalty-free-vs-buyout-myth-1-of-10",
+    "redirect": "https://blog.prosoundeffects.com/sound-effects-licensing-exposed-the-royalty-free-vs-buyout-myth-1-of-10",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-effects-master-class-with-mark-mangini",
+    "redirect": "https://blog.prosoundeffects.com/sound-effects-master-class-with-mark-mangini",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-of-the-day-endangered-species-week",
+    "redirect": "https://blog.prosoundeffects.com/sound-of-the-day-endangered-species-week",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sound-picture-review-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/sound-picture-review-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/soundbits-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/soundbits-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/soundrangers-interview-we-are-redirecttal-audio-geeks",
+    "redirect": "https://blog.prosoundeffects.com/soundrangers-interview-we-are-redirecttal-audio-geeks",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/soundrangers-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/soundrangers-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/soundworks-collection-the-sound-and-music-of-oblivion",
+    "redirect": "https://blog.prosoundeffects.com/soundworks-collection-the-sound-and-music-of-oblivion",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/spatial-connect-the-vr-audio-workflow-redirectol-sound-designers-have-been-waiting-for",
+    "redirect": "https://blog.prosoundeffects.com/spatial-connect-the-vr-audio-workflow-redirectol-sound-designers-have-been-waiting-for",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sredirectck-market-bell-sound-effect",
+    "redirect": "https://blog.prosoundeffects.com/sredirectck-market-bell-sound-effect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/sredirectrytelling-with-sound-effects-mark-mangini-richard-l-anderson",
+    "redirect": "https://blog.prosoundeffects.com/sredirectrytelling-with-sound-effects-mark-mangini-richard-l-anderson",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/strange-places-redirect-plant-and-hide-lav-microphones",
+    "redirect": "https://blog.prosoundeffects.com/strange-places-redirect-plant-and-hide-lav-microphones",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/strange-places-redirect-plant-or-hide-lav-microphones",
+    "redirect": "https://blog.prosoundeffects.com/strange-places-redirect-plant-or-hide-lav-microphones",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/streaming-media-producer-reviews-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/streaming-media-producer-reviews-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/Ambisonics",
+    "redirect": "https://blog.prosoundeffects.com/tag/ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/ambisonics",
+    "redirect": "https://blog.prosoundeffects.com/tag/ambisonics",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/audio-branding",
+    "redirect": "https://blog.prosoundeffects.com/tag/audio-branding",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/audio-branding",
+    "redirect": "https://blog.prosoundeffects.com/tag/audio-branding",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/audio-education",
+    "redirect": "https://blog.prosoundeffects.com/tag/audio-education",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/audio-education",
+    "redirect": "https://blog.prosoundeffects.com/tag/audio-education",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/awards",
+    "redirect": "https://blog.prosoundeffects.com/tag/awards",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/awards",
+    "redirect": "https://blog.prosoundeffects.com/tag/awards",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/categrory/competitions-and-contests",
+    "redirect": "https://blog.prosoundeffects.com/tag/competitions-and-contests",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/competitions-and-contests",
+    "redirect": "https://blog.prosoundeffects.com/tag/competitions-and-contests",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/events-and-parties",
+    "redirect": "https://blog.prosoundeffects.com/tag/events-and-parties",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/events-and-parties",
+    "redirect": "https://blog.prosoundeffects.com/tag/events-and-parties",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/film-sound",
+    "redirect": "https://blog.prosoundeffects.com/tag/film-sound",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/film-sound",
+    "redirect": "https://blog.prosoundeffects.com/tag/film-sound",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/free-sounds",
+    "redirect": "https://blog.prosoundeffects.com/tag/free-sounds",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/free-sounds",
+    "redirect": "https://blog.prosoundeffects.com/tag/free-sounds",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/freelancer-program",
+    "redirect": "https://blog.prosoundeffects.com/tag/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/freelancer-program",
+    "redirect": "https://blog.prosoundeffects.com/tag/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/game-audio",
+    "redirect": "https://blog.prosoundeffects.com/tag/game-audio",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/game-audio",
+    "redirect": "https://blog.prosoundeffects.com/tag/game-audio",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/how-i-work",
+    "redirect": "https://blog.prosoundeffects.com/tag/how-i-work",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/how-i-work",
+    "redirect": "https://blog.prosoundeffects.com/tag/how-i-work",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/how-redirect",
+    "redirect": "https://blog.prosoundeffects.com/tag/how-redirect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/how-redirect",
+    "redirect": "https://blog.prosoundeffects.com/tag/how-redirect",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/interactive-media",
+    "redirect": "https://blog.prosoundeffects.com/tag/interactive-media",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/interactive-media",
+    "redirect": "https://blog.prosoundeffects.com/tag/interactive-media",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/interviews",
+    "redirect": "https://blog.prosoundeffects.com/tag/interviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/interviews",
+    "redirect": "https://blog.prosoundeffects.com/tag/interviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/testimonial",
+    "redirect": "https://blog.prosoundeffects.com/tag/interviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/library-releases",
+    "redirect": "https://blog.prosoundeffects.com/tag/library-releases",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/library-releases",
+    "redirect": "https://blog.prosoundeffects.com/tag/library-releases",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/library-reviews",
+    "redirect": "https://blog.prosoundeffects.com/tag/library-reviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/library-reviews",
+    "redirect": "https://blog.prosoundeffects.com/tag/library-reviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/lists",
+    "redirect": "https://blog.prosoundeffects.com/tag/lists",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/lists",
+    "redirect": "https://blog.prosoundeffects.com/tag/lists",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/master-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/master-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/master-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/nab-show",
+    "redirect": "https://blog.prosoundeffects.com/tag/nab-show",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/nab-show",
+    "redirect": "https://blog.prosoundeffects.com/tag/nab-show",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/new-features",
+    "redirect": "https://blog.prosoundeffects.com/tag/new-features",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/new-features",
+    "redirect": "https://blog.prosoundeffects.com/tag/new-features",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/tag/pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/tag/pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/pro-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/pro-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/pro-sound-effects-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/pro-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/pro-redirectols",
+    "redirect": "https://blog.prosoundeffects.com/tag/pro-redirectols",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/pro-redirectols",
+    "redirect": "https://blog.prosoundeffects.com/tag/pro-redirectols",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/sound-design",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-design",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/sound-design",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-design",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/sound-effects-licensing",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-effects-licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/sound-effects-licensing",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-effects-licensing",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/sound-recording",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-recording",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/sound-recording",
+    "redirect": "https://blog.prosoundeffects.com/tag/sound-recording",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/mangini-anderson-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/the-odyssey-collection",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/the-odyssey-collection",
+    "redirect": "https://blog.prosoundeffects.com/tag/the-odyssey-collection",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/mangini-anderson-library",
+    "redirect": "https://blog.prosoundeffects.com/tag/the-odyssey-collection",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/the-odyssey-collection",
+    "redirect": "https://blog.prosoundeffects.com/tag/the-odyssey-collection",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/category/trade-shows",
+    "redirect": "https://blog.prosoundeffects.com/tag/trade-shows",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/trade-shows",
+    "redirect": "https://blog.prosoundeffects.com/tag/trade-shows",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/team-pse-nab-2014",
+    "redirect": "https://blog.prosoundeffects.com/team-pse-nab-2014",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/telephony-collection-a-century-of-phone-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/telephony-collection-a-century-of-phone-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tell-your-sredirectry-with-pro-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/tell-your-sredirectry-with-pro-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-20-most-popular-types-of-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/the-20-most-popular-types-of-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-odyssey-collection-essentials-library-redirectur-with-brad-engleking",
+    "redirect": "https://blog.prosoundeffects.com/the-odyssey-collection-essentials-library-redirectur-with-brad-engleking",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-odyssey-collection-expanded-library-redirectur-with-bob-kellough",
+    "redirect": "https://blog.prosoundeffects.com/the-odyssey-collection-expanded-library-redirectur-with-bob-kellough",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-pro-sound-effects-sredirectre-vs.-the-online-library-whats-best-for-you",
+    "redirect": "https://blog.prosoundeffects.com/the-pro-sound-effects-sredirectre-vs.-the-online-library-whats-best-for-you",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-sound-architect-reviews-the-hybrid-library",
+    "redirect": "https://blog.prosoundeffects.com/the-sound-architect-reviews-the-hybrid-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-sound-design-of-star-trek",
+    "redirect": "https://blog.prosoundeffects.com/the-sound-design-of-star-trek",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-sound-of-nolans-inception",
+    "redirect": "https://blog.prosoundeffects.com/the-sound-of-nolans-inception",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2011/11/the-sounds-of-occupy-wall-street-and-protests-past",
+    "redirect": "https://blog.prosoundeffects.com/the-sounds-of-occupy-wall-street-and-protests-past",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-sounds-of-occupy-wall-street-and-protests-past",
+    "redirect": "https://blog.prosoundeffects.com/the-sounds-of-occupy-wall-street-and-protests-past",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/the-subtle-powerful-sound-of-oscar-winner-the-salesman",
+    "redirect": "https://blog.prosoundeffects.com/the-subtle-powerful-sound-of-oscar-winner-the-salesman",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/behind-the-subtle-powerful-sound-of-oscar-winner-the-salesman",
+    "redirect": "https://blog.prosoundeffects.com/the-subtle-powerful-sound-of-oscar-winner-the-salesman",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/redirectkyo-ambisonics-library-use-software-redirect-spatialize-urban-atmospheres",
+    "redirect": "https://blog.prosoundeffects.com/redirectkyo-ambisonics-library-use-software-redirect-spatialize-urban-atmospheres",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/redirectnebenders-podcast-hybrid-library-giveaway",
+    "redirect": "https://blog.prosoundeffects.com/redirectnebenders-podcast-hybrid-library-giveaway",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/redirectp-10-most-in-demand-weather-sound-effects",
+    "redirect": "https://blog.prosoundeffects.com/redirectp-10-most-in-demand-weather-sound-effects",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/redirectp-5-sound-editing-redirectols-for-beginners",
+    "redirect": "https://blog.prosoundeffects.com/redirectp-5-sound-editing-redirectols-for-beginners",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/redirectp-6-basehead-features-for-efficient-sound-editing-workflow",
+    "redirect": "https://blog.prosoundeffects.com/redirectp-6-basehead-features-for-efficient-sound-editing-workflow",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/redirectp-6-pro-redirectols-shortcuts-redirect-streamline-your-sound-editing-workflow",
+    "redirect": "https://blog.prosoundeffects.com/redirectp-6-pro-redirectols-shortcuts-redirect-streamline-your-sound-editing-workflow",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/translating-emotion-sound-design-for-advertising-with-joseph-fraioli",
+    "redirect": "https://blog.prosoundeffects.com/translating-emotion-sound-design-for-advertising-with-joseph-fraioli",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/turkey-gobble-sound-of-the-day",
+    "redirect": "https://blog.prosoundeffects.com/turkey-gobble-sound-of-the-day",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/twitter-sound-effects-caption-contest",
+    "redirect": "https://blog.prosoundeffects.com/twitter-sound-effects-caption-contest",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/video-turedirectrial-homepage",
+    "redirect": "https://blog.prosoundeffects.com/video-turedirectrial-homepage",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/view-now-why-sound-matters-by-stephan-schutze",
+    "redirect": "https://blog.prosoundeffects.com/view-now-why-sound-matters-by-stephan-schutze",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/view-now-why-sound-matters-webinar-pt-2",
+    "redirect": "https://blog.prosoundeffects.com/view-now-why-sound-matters-webinar-pt-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/why-sound-matters-webinar-for-educaredirectrs/why-sound-matters-webinar-pt-2",
+    "redirect": "https://blog.prosoundeffects.com/view-now-why-sound-matters-webinar-pt-2",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/vr-audio-interview-featured-on-designing-sound",
+    "redirect": "https://blog.prosoundeffects.com/vr-audio-interview-featured-on-designing-sound",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/webinar-series-secrets-for-great-film-sound",
+    "redirect": "https://blog.prosoundeffects.com/webinar-series-secrets-for-great-film-sound",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/what-are-sound-artists-creating-with-the-odyssey-collection",
+    "redirect": "https://blog.prosoundeffects.com/what-are-sound-artists-creating-with-the-odyssey-collection",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/whats-new-in-the-hybrid-library-2017",
+    "redirect": "https://blog.prosoundeffects.com/whats-new-in-the-hybrid-library-2017",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/why-indie-media-crearedirectrs-are-joining-the-freelancer-program",
+    "redirect": "https://blog.prosoundeffects.com/why-indie-media-crearedirectrs-are-joining-the-freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/02/why-sound-matters-webinar-pt-3-feb-7-2012",
+    "redirect": "https://blog.prosoundeffects.com/why-sound-matters-webinars-for-education-in-technology",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/2012/2/why-sound-matters-webinar-pt-3-feb-7-2012",
+    "redirect": "https://blog.prosoundeffects.com/why-sound-matters-webinars-for-education-in-technology",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/why-sound-matters-webinars-for-education-in-technology",
+    "redirect": "https://blog.prosoundeffects.com/why-sound-matters-webinars-for-education-in-technology",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/why-the-hybrid-library-is-the-robin-hood-of-sound-effects-libraries",
+    "redirect": "https://blog.prosoundeffects.com/why-the-hybrid-library-is-the-robin-hood-of-sound-effects-libraries",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/winner-of-pse-audio-logo-announced",
+    "redirect": "https://blog.prosoundeffects.com/winner-of-pse-audio-logo-announced",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/winners-audio-branding-award-2013",
+    "redirect": "https://blog.prosoundeffects.com/winners-audio-branding-award-2013",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/wolf-howl-sound-effect-redirect-assemble-the-pack",
+    "redirect": "https://blog.prosoundeffects.com/wolf-howl-sound-effect-redirect-assemble-the-pack",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/world-listening-day-2012-pro-sound-effects-celebrates-at-campus-technology-2012",
+    "redirect": "https://blog.prosoundeffects.com/world-listening-day-2012-pro-sound-effects-celebrates-at-campus-technology-2012",
+    "statusCode": 301
+  },
+  {
+    "route": "/confirm-email",
+    "redirect": "https://hello.prosoundeffects.com/confirm-email",
+    "statusCode": 301
+  },
+  {
+    "route": "/free-sound-effects-download",
+    "redirect": "https://hello.prosoundeffects.com/core-free-sampler",
+    "statusCode": 301
+  },
+  {
+    "route": "/free-sound-effects-download/pse-micro",
+    "redirect": "https://hello.prosoundeffects.com/core-free-sampler",
+    "statusCode": 301
+  },
+  {
+    "route": "/apply-for-freelancer-pricing",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelancer-home",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelancer-hybrid",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelancer-program",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelancer",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-freelancer",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/hybrid-library/apply-for-freelancer-pricing",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/freelancer-program-2016-press-kit",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-announces-freelancer-program-open-enrollment",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-opens-freelancer-program-for-year-round-enrollment",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-upgrades-freelancer-program-with-new-libraries-and-software",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelancer-program-thank-you",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program/thank-you",
+    "statusCode": 301
+  },
+  {
+    "route": "/freelancer-program/thank-you",
+    "redirect": "https://hello.prosoundeffects.com/freelancer-program/thank-you",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/fabfilter-pro-r-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/core-4",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/nugen-post-bundle-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/odyssey-complete-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/sound-design-route-home-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/upgrade-your-sound-design-rig-giveaway-2019",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/upgrade-your-sound-design-rig-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/upgrade-your-sound-design-rig-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/video-crearedirectr-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/vr-field-recording-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/fabfilter-pro-r-giveaway-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/fabfilter",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/giveaway$",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/nugen-post-bundle-giveaway-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-complete-giveaway-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pro-sound-effects-launches-vr-field-recording-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/sound-desgin-route-home-giveaway-2020-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/sound-design-route-home-giveaway-2020-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/upgrade-your-sound-design-rig-2019-giveaway-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/upgrade-your-sound-design-rig-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/video-crearedirectr-giveaway-2020-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/vr-field-recording-giveaway-ended",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/vr-giveaway",
+    "redirect": "https://hello.prosoundeffects.com/giveaway-ended",
+    "statusCode": 301
+  },
+  {
+    "route": "/cusredirectmer-service",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/essentials-getting-started",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/faq",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/izoredirectpe-rx-post-production-suite-2",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/ja/split-zip-info",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/jackson-wild",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/landing-page-upgrades",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/library-access-portal-user-guide",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/library-access-umich-design-challenge",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/media-composer-sound-effects-library-2",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/nuendo-sound-effects-library",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/nuendo",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/odyssey-starter-getting-started",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/online-library-user-guide",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/press/pse-logos",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/pro-sound-effects-first-library-download",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/pse-online-library-user-guide",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/select-basehead-licensing-option",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/soundminer-registration",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/split-zip-info",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/support",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/vstbuzz",
+    "redirect": "https://hello.prosoundeffects.com/help-center",
+    "statusCode": 301
+  },
+  {
+    "route": "/sanni",
+    "redirect": "https://hello.prosoundeffects.com/master-class-essential-audio-skills-for-every-ediredirectr",
+    "statusCode": 301
+  },
+  {
+    "route": "/media-composer-first-sound-effects-library",
+    "redirect": "https://hello.prosoundeffects.com/media-composer-first-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/media-composer-sound-effects-library",
+    "redirect": "https://hello.prosoundeffects.com/media-composer-first-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/media-composer-sound-effects-library/download",
+    "redirect": "https://hello.prosoundeffects.com/media-composer-sound-effects-library/download",
+    "statusCode": 301
+  },
+  {
+    "route": "/meet-with-jeremy",
+    "redirect": "https://hello.prosoundeffects.com/meetings/jeremy120",
+    "statusCode": 301
+  },
+  {
+    "route": "/pro-redirectols-sound-effects-library",
+    "redirect": "https://hello.prosoundeffects.com/pro-redirectols-sound-effects-library",
+    "statusCode": 301
+  },
+  {
+    "route": "/avid-sound-effects-library-faq",
+    "redirect": "https://hello.prosoundeffects.com/pro-redirectols-sound-effects-library/download",
+    "statusCode": 301
+  },
+  {
+    "route": "/pro-redirectols-sound-effects-library/download",
+    "redirect": "https://hello.prosoundeffects.com/pro-redirectols-sound-effects-library/download",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/tag/reviews",
+    "redirect": "https://hello.prosoundeffects.com/reviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/reviews",
+    "redirect": "https://hello.prosoundeffects.com/reviews",
+    "statusCode": 301
+  },
+  {
+    "route": "/richard-king-master-class",
+    "redirect": "https://hello.prosoundeffects.com/richard-king-master-class",
+    "statusCode": 301
+  },
+  {
+    "route": "/blog/giveaways/soundq",
+    "redirect": "https://hello.prosoundeffects.com/soundq-giveaway-2022",
+    "statusCode": 301
+  },
+  {
+    "route": "/contact-us",
+    "redirect": "https://hello.prosoundeffects.com/support",
+    "statusCode": 301
+  },
+  {
+    "route": "/pdf/Music-EULA.pdf",
+    "redirect": "https://prosoundeffects.s3.amazonaws.com/pdf/Music-EULA.pdf",
+    "statusCode": 301
+  },
+  {
+    "route": "/pdf/SoundQ-EULA.pdf",
+    "redirect": "https://prosoundeffects.s3.amazonaws.com/pdf/SoundQ-EULA.pdf",
+    "statusCode": 301
+  },
+  {
+    "route": "/soundq-ieula",
+    "redirect": "https://prosoundeffects.s3.amazonaws.com/pdf/SoundQ-EULA.pdf",
+    "statusCode": 301
+  },
+  {
+    "route": "/20k",
+    "redirect": "https://teams.prosoundeffects.com/offer/20k",
+    "statusCode": 301
+  },
+  {
+    "route": "/asd-sound-effects-library.html",
+    "redirect": "https://teams.prosoundeffects.com/offer/asd",
+    "statusCode": 301
+  },
+  {
+    "route": "/association-of-sound-designers",
+    "redirect": "https://teams.prosoundeffects.com/offer/asd",
+    "statusCode": 301
+  },
+  {
+    "route": "/assg",
+    "redirect": "https://teams.prosoundeffects.com/offer/assg",
+    "statusCode": 301
+  },
+  {
+    "route": "/ignite",
+    "redirect": "https://teams.prosoundeffects.com/offer/mpeg-ignite-2023",
+    "statusCode": 301
+  },
+  {
+    "route": "/mpse",
+    "redirect": "https://teams.prosoundeffects.com/offer/mpse",
+    "statusCode": 301
+  },
+  {
+    "route": "/post",
+    "redirect": "https://teams.prosoundeffects.com/offer/post",
+    "statusCode": 301
+  },
+  {
+    "route": "/companies",
+    "redirect": "/teams",
+    "statusCode": 301
+  },
+  {
+    "route": "/teams-trial",
+    "redirect": "/teams",
+    "statusCode": 301
   }
+],
+"platform": {
+  "apiRuntime": "node:18"
+},
+"navigationFallback": {
+  "rewrite": "/api/server"
+}
 }
